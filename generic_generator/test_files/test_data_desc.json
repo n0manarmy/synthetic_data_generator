@@ -1,0 +1,69 @@
+{
+    "object_name" : "test_object",
+    "structure" : [
+        {
+            "name" : "STRING_OBJECT",
+            "type" : "string",
+            "display_count_max" : 5,
+            "display_count_min" : 1,
+            "is_array" : "false"
+        },
+        {
+            "name" : "INT_OBJECT",
+            "type" : "int",
+            "display_count_max" : 1,
+            "display_count_min" : 1,
+            "is_array" : "false"
+        },
+        {
+            "name" : "STRING_ARRAY_OBJECT",
+            "type" : "string",
+            "display_count_max" : 5,
+            "display_count_min" : 0,
+            "is_array" : "true"
+        },
+        {
+            "name" : "JSON_OBJECT",
+            "type" : [
+                {
+                    "name" : "JSON_OBJECT_VAL1",
+                    "type" : "string",
+                    "display_count_max" : 1,
+                    "display_count_min" : 1,
+                    "is_array" : "false"
+                },
+                {
+                    "name" : "JSON_OBJECT_VAL2",
+                    "type" : "string",
+                    "display_count_max" : 1,
+                    "display_count_min" : 1,
+                    "is_array" : "false"
+                },
+                {
+                    "name" : "JSON_OBJECT_VAL3",
+                    "type" : "string",
+                    "display_count_max" : 1,
+                    "display_count_min" : 1,
+                    "is_array" : "false"
+                }
+            ],
+            "display_count_max" : 5,
+            "display_count_min" : 0,
+            "is_array" : "true"
+        },
+        {
+            "name" : "BOOLEAN_OBJECT",
+            "type" : "boolean",
+            "display_count_max" : 1,
+            "display_count_min" : 1,
+            "is_array" : "false"
+        },
+        {
+            "name" : "NULL_OBJECT",
+            "type" : "null",
+            "display_count_max" : 1,
+            "display_count_min" : 1,
+            "is_array" : "false"
+        }
+    ]
+}

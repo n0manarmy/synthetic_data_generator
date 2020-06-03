@@ -1,0 +1,19 @@
+{
+    "json_test" : [
+        {
+            "1" : {
+                "label" : "string_value",
+                "data_type":"StringValue",
+                "range" : "1-1",
+                "is_array" : false
+                ""
+            },
+            "2" : {
+                "label" : "int_value",
+                "data_type" : "IntValue",
+                "range" : "0-100",
+                "is_array" : false
+            }
+        }
+    ]
+}

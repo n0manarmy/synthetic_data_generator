@@ -1,0 +1,15 @@
+[workspace]
+members = [
+    "synth_library",
+    "generator",
+    "generic_generator",
+]
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+debug = false
+opt-level = 3
+incremental = true
+lto = true

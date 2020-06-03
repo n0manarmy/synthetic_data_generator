@@ -1,0 +1,6 @@
+{
+    "label" : "string_value",
+    "data_type":"StringValue",
+    "range" : "1-1",
+    "is_array" : false
+}

@@ -1,0 +1,18 @@
+[package]
+name = "generic_generator"
+version = "1.0.0"
+authors = ["user"]
+edition = "2018"
+publish = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+synth_library = {package = "synth_library", path = "../synth_library" }
+
+rand = ""
+# json = "*"
+serde = {version="", features=["derive"]}
+serde_json = ""
+log = ""
+log4rs = ""
