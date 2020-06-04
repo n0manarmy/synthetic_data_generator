@@ -6,6 +6,7 @@ The generator application is very static. In the future meta data files will be 
 
 # Todo
 * Continue building out the logging component of the application
+* Implement generic data builder based on config files
 
 # Usage
 
