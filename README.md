@@ -12,6 +12,11 @@ The generator application is very static. In the future meta data files will be 
 
 To run the application with the default data sets use the below command
 ```
+cargo run --release --bin generator -- --help
+```
+
+A simple run looks like below
+```
 cargo run --release --bin generator -- --output-dst file
 ```
 
