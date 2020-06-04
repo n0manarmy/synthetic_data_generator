@@ -5,8 +5,6 @@ use crate::data_helpers::json_test_data::helpers::data_object_test_record_builde
 use crate::data_helpers::json_test_data::objects::data_object_test_record::DataObjectTestRecord;
 use crate::synth_library::data_exporters::file_io_helper::FileIOHelper;
 
-use std::path::{Path, PathBuf};
-
 pub struct TestFileDataFactory {}
 
 impl TestFileDataFactory {
@@ -18,10 +16,6 @@ impl TestFileDataFactory {
     ) {
         let mut records_generated: usize = 0;
         let mut records: Vec<DataObjectTestRecord> = Vec::new();
-
-        // let file_io_helper = FileIOHelper::new(&arguments.output_name);
-        // let mut path = PathBuf::new();
-        // path.push(&arguments.output_name);
 
         // Loop and count the records generated
         for _x in 0..arguments.count {

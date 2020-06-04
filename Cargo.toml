@@ -2,7 +2,7 @@
 members = [
     "synth_library",
     "generator",
-    "generic_generator",
+    # "generic_generator",
 ]
 
 [profile.dev]

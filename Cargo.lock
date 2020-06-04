@@ -58,18 +58,6 @@ version = "0.4.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
-name = "file_generator"
-version = "1.0.0"
-dependencies = [
- "log 0.4.8 (registry+https://github.com/rust-lang/crates.io-index)",
- "log4rs 0.11.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "rand 0.6.5 (registry+https://github.com/rust-lang/crates.io-index)",
- "serde 1.0.106 (registry+https://github.com/rust-lang/crates.io-index)",
- "serde_json 1.0.46 (registry+https://github.com/rust-lang/crates.io-index)",
- "synth_library 1.0.0",
-]
-
-[[package]]
 name = "flate2"
 version = "1.0.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -91,7 +79,7 @@ version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
-name = "generic_generator"
+name = "generator"
 version = "1.0.0"
 dependencies = [
  "log 0.4.8 (registry+https://github.com/rust-lang/crates.io-index)",
