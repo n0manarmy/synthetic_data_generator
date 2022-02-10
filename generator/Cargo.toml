@@ -8,9 +8,9 @@ publish = false
 [dependencies]
 synth_library = {package = "synth_library", path = "../synth_library" }
 
-rand = ""
+rand = "*"
 # json = "*"
-serde = {version="", features=["derive"]}
-serde_json = ""
-log = ""
-log4rs = ""
+serde = {version="*", features=["derive"]}
+serde_json = "*"
+log = "*"
+log4rs = "*"
